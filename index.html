@@ -13,6 +13,39 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+    <style>
+   .schedule {
+    display: grid;
+    grid-template-columns: auto repeat(7, 1fr);
+    grid-gap: 5px;
+    padding: 20px;
+  }
+  .time-slot {
+    background-color: #e8817f;
+    border: 1px solid #ccc;
+    padding: 10px;
+	font-weight:bold;
+  }
+  .time-slot1 {
+    background-color: #311f62;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  .event {
+    background-color: #cce5ff; /* Light blue */
+    border: 1px solid #99c2ff;
+    padding: 10px;
+  }
+  .meeting {
+    background-color: #d9ead3; /* Light green */
+    border: 1px solid #a9d18e;
+    padding: 10px;
+  }
+  .blockquote {
+    margin: 0;
+    padding: 20px;
+    }
+</style>
   </head>
   <body>
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
@@ -55,6 +88,7 @@
                         <li class="rd-nav-item"><a class="rd-nav-link" href="#services">Services</a></li>
                         <li class="rd-nav-item"><a class="rd-nav-link" href="#aboutus">About Us</a></li>
                         <li class="rd-nav-item"><a class="rd-nav-link" href="#schedules">Schedules</a></li>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="#benefits">Benefits</a></li>
                         <li class="rd-nav-item"><a class="rd-nav-link" href="#review">Review</a></li>
                         <li class="rd-nav-item"><a class="rd-nav-link" href="#contacts">Contacts</a></li>
                       </ul>
@@ -141,6 +175,15 @@
                     <h5 class="box-icon-modern-title">Women and Children</a></h5>
                     <div class="box-icon-modern-decor"></div>
                     <p class="box-icon-modern-text">Only for Women and Children (Boy’s Under 14)</p>
+                      </article>
+                </div>
+                    <div class="col-sm-6 wow fadeInRight" data-wow-delay=".4s">
+                  <article class="box-icon-modern box-icon-modern-2">
+                    <div class="box-icon-modern-icon linearicons-man-woman"></div>
+                    <h5 class="box-icon-modern-title">Guest Entry</a></h5>
+                    <div class="box-icon-modern-decor"></div>
+                    <p class="box-icon-modern-text">Guest Entry Allowed</p>
+                   
                   </article>
                 </div>
               </div>
@@ -364,17 +407,19 @@
         <div class="container-fluid" align="center">
           <h2 class="wow fadeInLeft">Our Schedules</h2>
           <p align="center">At our organization, we understand the importance of having a structured schedule to ensure productivity and efficiency. <br>That's why we have carefully crafted our schedule to accommodate the needs of our team members and clients. <br>Our schedule is divided into two main parts, morning and evening, to cater to different schedules and preferences. </p>
+          
+  
 <table border="0" align="center" cellpadding="50">
 
-<td> <p>Morning</p>
-6.30 am to 7.30 am<br>             
-7.30 am to 8.30 am<br>
-8.30 am to 9.30 am<br>
-9.30 am to 10.30 am<br></td>
-<td> <p>Evening</p>
-4.00 pm to 5.00 pm<br>
-5.00 pm to 6.00 pm<br>
-6.00 pm to 7.00 pm<br>
+<td> <p class="time-slot" align="center">Morning</p>
+<p class="time-slot">6.30 am to 7.30 am</p>            
+<p class="time-slot">7.30 am to 8.30 am</p>
+<p class="time-slot">8.30 am to 9.30 am</p>
+<p class="time-slot">9.30 am to 10.30 am</p></td>
+<td > <p style="color: white; font-weight: bold;" class="time-slot1" align="center">Evening</p>
+<p style="color: white; font-weight: bold;" class="time-slot1">4.00 pm to 5.00 pm</p>
+<p style="color: white; font-weight: bold;" class="time-slot1">5.00 pm to 6.00 pm</p>
+<p style="color: white; font-weight: bold;" class="time-slot1">6.00 pm to 7.00 pm</p>
 <br>
 
 </td>
@@ -383,6 +428,31 @@
           
       </div>
       </section>
+      
+       <section class="section section-sm section-fluid bg-default text-center" id="benefits">
+        <div class="container-fluid">
+          <h2 class="wow fadeInLeft">Health Benefits of Swimming</h2>
+          <p align="justify">Swimming is a popular and enjoyable sport that offers a multitude of physical and mental health benefits. From providing a full-body workout to improving mental wellbeing, there are numerous reasons why swimming should be a part of everyone's fitness routine. In this article, we will discuss the wide range of benefits that swimming has to offer.</p>
+
+<p align="justify">First and foremost, swimming is a great form of exercise as it engages all major muscle groups in the body. From your arms and legs to your core, swimming requires the use of multiple muscle groups to propel yourself through the water. This means that swimming provides a full-body workout, helping you to stay physically fit and healthy. It is a low-impact exercise, making it suitable for people of all ages and fitness levels. Compared to high-impact sports like running, swimming puts less stress on your joints, making it a great option for those with joint pain or injuries.</p>
+
+<p align="justify">Another benefit of swimming is that it is a great cardiovascular exercise. With regular swimming, you can improve your heart's health and reduce the risk of heart diseases. Swimming increases your heart rate, which in turn strengthens your heart and improves its efficiency. It also improves blood circulation, which can help to lower blood pressure and reduce the risk of developing hypertension.</p>
+<p align="justify">Swimming is not just a fun and refreshing activity, but it also has numerous health benefits. From improving cardiovascular health to increasing muscle strength, swimming is a low-impact exercise that can benefit people of all ages and fitness levels. In this article, we will explore the various health benefits of swimming.</p>
+<p class="blockquote" align="justify">
+<p align="left">1. Improves cardiovascular health</p>
+<p align="left">2. Builds muscle strength</p>
+<p align="left">3. Low-impact exercise</p>
+<p align="left">4. Helps with weight management</p>
+<p align="left">5. Reduces stress and improves mental health</p>
+<p align="left">6. Increases flexibility</p>
+<p align="left">7. Improves respiratory health</p>
+<p align="left">8. Lowers the risk of chronic diseases</p>
+<p align="left">9. Suitable for all ages and fitness levels</p>
+</p>
+
+</div>
+</section>
+
 
       <!-- Meet The Team-->
    <!--   <section class="section section-sm section-fluid bg-default" id="team">
